@@ -128,8 +128,11 @@ h2 {
 header img {
   display: block;
   margin: 30px auto 0 auto;
-  max-width: 300px;
+  max-width: 200px; /* <-- riduci qui la dimensione */
+  width: 100%;
+  height: auto;
 }
+
 
 
 
