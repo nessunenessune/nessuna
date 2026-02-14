@@ -110,11 +110,44 @@ h2 {
   position: fixed;
   top: 20px;
   right: 20px;
-  width: 40px;
-  height: 40px;
-  background: red; /* test: deve apparire un quadrato rosso */
+  width: 14px;
+  height: 14px;
+  background: #000;
+  border-radius: 50%;
   z-index: 9999;
+
+  /* animazione */
+  animation: wiggle 1.2s infinite ease-in-out;
 }
+
+/* zampe semplici */
+.spider::before,
+.spider::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  top: 6px;
+}
+
+.spider::before {
+  left: -18px;
+  transform: rotate(20deg);
+}
+
+.spider::after {
+  right: -18px;
+  transform: rotate(-20deg);
+}
+
+/* movimento leggero */
+@keyframes wiggle {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(3px); }
+  100% { transform: translateY(0px); }
+}
+
 
 
 
