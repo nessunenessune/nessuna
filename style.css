@@ -133,6 +133,10 @@ header img {
   height: auto;
 }
 
+header p {
+  font-size: 1.2rem; /* aumenta qui */
+  margin-top: 10px;
+}
 
 
 
