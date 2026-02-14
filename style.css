@@ -157,6 +157,31 @@ body {
   white-space: pre-line;
 }
 
+/* TITOLO BORDEAUX */
+.titolo-bordeaux {
+  color: #800020; /* bordeaux */
+}
+
+/* SEZIONE HAIKU */
+.haiku {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* TITOLO DEL SINGOLO HAIKU */
+.singolo-haiku h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* TESTO DELL'HAIKU */
+.singolo-haiku p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  white-space: pre-line; /* mantiene gli a capo */
+}
+
 
 
 
