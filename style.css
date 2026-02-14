@@ -3,7 +3,7 @@
 
 :root {
   --font-title: 'EB Garamond', serif;
-  --font-body: 'EB Garamond', sans-serif;
+  --font-body: 'EB Garamond', serif;
   --accent: #2e2e2e;
   --max-width: 650px;
 }
@@ -12,11 +12,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
-  background: #fafafa;
+  background: #f7f3ee;
   color: #111;
   line-height: 1.6;
 }
 
+/* HEADER */
 header {
   text-align: center;
   padding: 60px 20px 40px;
@@ -56,6 +57,7 @@ nav a:hover {
   border-bottom: 1px solid var(--accent);
 }
 
+/* MAIN */
 main {
   max-width: var(--max-width);
   margin: 40px auto;
@@ -68,6 +70,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* LISTA CONTENUTI */
 .article-list a {
   display: block;
   margin-bottom: 15px;
@@ -80,7 +83,6 @@ h2 {
 .article-list a:hover {
   text-decoration: underline;
 }
-
 
 /* RESPONSIVE */
 @media (max-width: 700px) {
@@ -106,6 +108,7 @@ h2 {
   }
 }
 
+/* RAGNO */
 .spider {
   position: fixed;
   top: 20px;
@@ -128,36 +131,12 @@ h2 {
 header img {
   display: block;
   margin: 30px auto 0 auto;
-  max-width: 200px; /* <-- riduci qui la dimensione */
+  max-width: 200px;
   width: 100%;
   height: auto;
 }
 
-body {
-  background-color: #f7f3ee;
-}
-
-/* SEZIONE HAIKU */
-.haiku {
-  margin-top: 60px;
-  text-align: center;
-}
-
-.haiku h2 {
-  font-size: 1.4rem;
-  font-weight: normal;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-
-.haiku p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  font-family: "Georgia", serif;
-  white-space: pre-line;
-}
-
-/* TITOLO BORDEAUX */
+/* TITOLO BORDEAUX PER LE SOTTOSEZIONI */
 .titolo-bordeaux {
   color: #800020;
 }
@@ -165,7 +144,12 @@ body {
 /* SEZIONE HAIKU */
 .haiku {
   margin-top: 60px;
+}
+
+/* OGNI HAIKU È CENTRATO */
+.singolo-haiku {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 /* TITOLO DEL SINGOLO HAIKU */
@@ -179,7 +163,7 @@ body {
 .singolo-haiku p {
   font-size: 1.2rem;
   line-height: 1.8;
-  white-space: pre-line;
+  white-space: pre-line; /* mantiene gli a capo */
 }
 
 
