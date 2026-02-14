@@ -159,7 +159,7 @@ body {
 
 /* TITOLO BORDEAUX */
 .titolo-bordeaux {
-  color: #800020; /* bordeaux */
+  color: #800020;
 }
 
 /* SEZIONE HAIKU */
@@ -179,8 +179,10 @@ body {
 .singolo-haiku p {
   font-size: 1.2rem;
   line-height: 1.8;
-  white-space: pre-line; /* mantiene gli a capo */
+  white-space: pre-line;
 }
+
+
 
 
 
