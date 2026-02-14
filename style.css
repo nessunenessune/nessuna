@@ -137,6 +137,27 @@ body {
   background-color: #f7f3ee;
 }
 
+/* SEZIONE HAIKU */
+.haiku {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.haiku h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.haiku p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: "Georgia", serif;
+  white-space: pre-line;
+}
+
+
 
 
 
